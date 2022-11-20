@@ -1,0 +1,147 @@
+.header {
+  // text-align: center;
+  // padding-top: 3rem;
+  // padding-bottom: 3rem;
+  padding: 3rem 2rem;
+  margin-top: 7rem;
+  border-radius: 3rem;
+
+  background-color: $color-primary;
+
+  // width: 30rem;
+  // height: 100vh;
+
+  // needed as smoothscroll.js adds border to sections
+  &:focus {
+    outline: none !important;
+  }
+
+  @include respondMax(991px) {
+    margin-top: 2rem;
+  }
+
+  &__inner {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  // &__profile {
+  //   // display: flex;
+  //   // flex-direction: column;
+  //   // justify-content: space-between;
+  //   // align-items: center;
+  //   // margin-left: auto;
+  // }
+
+  &__top,
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include respondMax(767px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // margin-left: 5rem;
+
+    color: $color-text-light;
+    @include respondMax(767px) {
+      align-items: center;
+      order: 2;
+    }
+  }
+
+  &__name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+
+    // @include respondMax(495px) {
+    //   // font-size: 2rem;
+    // }
+  }
+
+  &__hi,
+  &__am {
+    @include respondMax(401px) {
+      display: block;
+      text-align: center;
+    }
+  }
+  &__title {
+    font-size: 1.6rem;
+    // margin-bottom: 1rem;
+    display: inline-block;
+    padding: 5px 2rem;
+    border-radius: 1rem;
+    color: #fff;
+
+    @include respondMax(337px) {
+      padding: 5px 1rem;
+      text-align: center;
+    }
+
+    &--orange {
+      background-color: $color-secondary;
+    }
+    &--green {
+      color: #fff !important;
+      background-color: $color-secondary;
+      margin-left: 1.5rem;
+    }
+  }
+
+  &__picture-container {
+    width: $img-size;
+    height: $img-size;
+    margin-right: 1rem;
+    @include respondMax(767px) {
+      order: 1;
+      margin-bottom: 2rem;
+    }
+  }
+  &__picture {
+    width: $img-size;
+    height: $img-size;
+    border-radius: 50%;
+    border: 6px solid $color-secondary;
+    object-fit: cover;
+  }
+
+  &__location {
+    color: $color-text-light;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    & ion-icon {
+      color: $color-secondary;
+      font-size: 2.8rem;
+      margin-right: 5px;
+    }
+  }
+
+  &__links {
+    margin-top: 1rem;
+    & ion-icon {
+      font-size: 2.5rem;
+      transition: all 0.2s;
+      // &:hover {
+      //   // color: $color-tart;
+      // }
+    }
+    & a:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+}

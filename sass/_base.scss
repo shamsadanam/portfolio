@@ -1,0 +1,87 @@
+// variables
+
+// $color-primary: #03071e;
+// $color-primary: #081043;
+// $color-primary: #1b262c; //dark grey -- liked it --- need secondary colors
+
+$color-primary: #f9fcfb;
+$color-secondary: #21bf73;
+
+// $color-secondary: #dc2f02;
+// $color-secondary: #f48c06;
+// $color-secondary: #faa307;
+
+$color-tart: #f48c06;
+$color-fort: #2b9348;
+$color-fort-light: #12af3e;
+
+// $color-text-light: #fff;
+// $color-text-dark: #000;
+
+$color-text-light: #000;
+$color-text-dark: #fff;
+
+$color-blue-dark: #001233;
+$color-blue-light: #414f9d;
+$color-green: #02c39a;
+$color-light-1: #e5e5e5;
+$color-light-2: #e2e1ed;
+// $color-blue-light: $color-secondary;
+
+$color-html: #f16524;
+$color-css: #3c9cd7;
+$color-js: $color-secondary;
+$color-psd: #31c5f0;
+$color-respond: #6f43a2;
+$color-respond-light: #9754e2;
+$color-wp: #21759b;
+
+$img-size: 13rem;
+
+html {
+  font-size: 62.5%;
+  @include respondMax(575px) {
+    font-size: 50%;
+  }
+  scroll-behavior: smooth;
+  transition: all 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+
+:focus {
+  outline: none !important;
+}
+
+a {
+  color: inherit;
+}
+
+.case {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.js-transparent {
+  background-color: transparent !important;
+}
+.js-transparent-some {
+  background-color: rgba(0, 18, 51, 0.8) !important;
+}
+
+.js-link-sm {
+  font-size: 1.8rem !important;
+  padding: 1rem !important;
+}
+
+.js-icon-sm {
+  font-size: 1.8rem !important;
+}

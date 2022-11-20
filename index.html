@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I am Shamsad Anam, a front end web developer based in Bangladesh. While creating a website, I always focus on accessibility, performance and best practices"
+    />
+
+    <title>Shamsad Anam | Web Developer</title>
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- library styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- my-styles -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- ::: navbar ::: -->
+    <nav class="mynav" id="mynav">
+      <div class="container">
+        <ul class="mynav__menu" id="mynavMenu">
+          <li class="mynav__item">
+            <a data-scroll="home" href="#home" class="mynav__links active">
+              <ion-icon name="home-outline"></ion-icon>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="mynav__item">
+            <a data-scroll="port" href="#port" class="mynav__links">
+              <ion-icon name="briefcase-outline"></ion-icon>
+              <span>Portfolio</span>
+            </a>
+          </li>
+          <li class="mynav__item">
+            <a data-scroll="skill" href="#skill" class="mynav__links">
+              <ion-icon name="code-slash"></ion-icon>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li class="mynav__item">
+            <a data-scroll="about" href="#about" class="mynav__links">
+              <ion-icon name="person-outline"></ion-icon>
+              <span>About</span>
+            </a>
+          </li>
+          <li class="mynav__item">
+            <a data-scroll="contact" href="#contact" class="mynav__links">
+              <ion-icon name="call-outline"></ion-icon>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ::: header ::: -->
+    <header class="container" id="home">
+      <div class="row">
+        <div class="col-12">
+          <section class="header">
+            <div class="header__inner">
+              <div class="header__profile">
+                <div class="header__top">
+                  <div class="header__info">
+                    <div class="header__name">
+                      <span class="header__hi">Hi,</span>
+                      <span class="header__am"> I'm Shamsad Anam </span>
+                    </div>
+                    <div class="d-flex">
+                      <div class="header__title header__title--orange">
+                        Web Developer
+                      </div>
+                      <a
+                        href="https://www.fiverr.com/share/5bGmx4"
+                        class="header__title header__title--green"
+                        target="_blank"
+                        aria-label="Hire Me"
+                        alt="psd to html conversion hire on fiverr"
+                        >Hire Me</a
+                      >
+                    </div>
+                  </div>
+                  <div class="header__picture-container">
+                    <img
+                      src="img/shamsad-anam.jpg"
+                      alt="shamsad-anam-dp"
+                      class="header__picture"
+                    />
+                  </div>
+                </div>
+                <div class="header__bottom">
+                  <div class="header__location">
+                    <ion-icon name="location-sharp"></ion-icon>
+                    <span>Dhaka, Bangladesh</span>
+                  </div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="header__links">
+                      <a href="#" class="twitter"
+                        ><ion-icon name="logo-facebook"></ion-icon
+                      ></a>
+                      <a href="#" class="twitter"
+                        ><ion-icon name="logo-twitter"></ion-icon
+                      ></a>
+                      <a href="#" class="instagram"
+                        ><ion-icon name="logo-github"></ion-icon
+                      ></a>
+                      <a href="#" class="linkedin"
+                        ><ion-icon name="logo-linkedin"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <button type="button" class="mobile-nav-toggle d-xl-none">
+                <i class="icofont-navigation-menu"></i>
+              </button> -->
+            </div>
+          </section>
+        </div>
+      </div>
+    </header>
+
+    <!-- ::: main container to keep all in the middle ::: -->
+    <main class="main">
+      <div class="container">
+        <!-- ::: portfolio ::: -->
+        <section class="port" id="port">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading__primary">
+                  <span>Some of My Best Works</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 showcase">
+                <div class="showcase__item" id="mariachiPreview">
+                  <a href="#mariachiPopup">
+                    <div class="card">
+                      <img
+                        src="img/maricahi.png"
+                        alt=""
+                        class="card-img-top"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="showcase__item-before">
+                      <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                  </a>
+                  <div class="showcase__item-after">
+                    <div class="showcase__item-links">
+                      <a
+                        href="https://shamsad-anam.github.io/restaurant-mariachi/"
+                        class="btn showcase__item-links--live"
+                        target="_blank"
+                      >
+                        <ion-icon name="eye-outline"></ion-icon>
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/shamsad-anam/restaurant-mariachi"
+                        class="btn showcase__item-links--code"
+                        target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>Code</a
+                      >
+                      <a
+                        href="#mariachiPopup"
+                        class="btn showcase__item-links--gallery"
+                      >
+                        <ion-icon name="expand-outline"></ion-icon>
+                        Expand
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase__item" id="digitorePreview">
+                  <a href="#digitorePopup">
+                    <div class="card">
+                      <img
+                        src="img/digitore.png"
+                        alt=""
+                        class="card-img-top"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="showcase__item-before">
+                      <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                  </a>
+                  <div class="showcase__item-after">
+                    <div class="showcase__item-links">
+                      <a
+                        href=" https://shamsad-anam.github.io/digitore-landing-page/"
+                        class="btn showcase__item-links--live"
+                        target="_blank"
+                      >
+                        <ion-icon name="eye-outline"></ion-icon>
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/shamsad-anam/digitore-landing-page"
+                        class="btn showcase__item-links--code"
+                        target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>Code</a
+                      >
+                      <a
+                        href="#digitorePopup"
+                        class="btn showcase__item-links--gallery"
+                      >
+                        <ion-icon name="expand-outline"></ion-icon>
+                        Expand
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase__item" id="abdullahPreview">
+                  <a href="#abdullahPopup">
+                    <div class="card">
+                      <img
+                        src="img/abdullah.png"
+                        alt=""
+                        class="card-img-top"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="showcase__item-before">
+                      <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                  </a>
+                  <div class="showcase__item-after">
+                    <div class="showcase__item-links">
+                      <a
+                        href="#needlink"
+                        class="btn showcase__item-links--live"
+                        target="_blank"
+                      >
+                        <ion-icon name="eye-outline"></ion-icon>
+                        Live
+                      </a>
+                      <a
+                        href="#needlink"
+                        class="btn showcase__item-links--code"
+                        target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>Code</a
+                      >
+                      <a
+                        href="#abdullahPopup"
+                        class="btn showcase__item-links--gallery"
+                      >
+                        <ion-icon name="expand-outline"></ion-icon>
+                        Expand
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase__item" id="cafePreview">
+                  <a href="#cafePopup">
+                    <div class="card">
+                      <img
+                        src="img/cafe.png"
+                        alt=""
+                        class="card-img-top"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="showcase__item-before">
+                      <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                  </a>
+                  <div class="showcase__item-after">
+                    <div class="showcase__item-links">
+                      <a
+                        href=" https://shamsad-anam.github.io/cafe-expresso/"
+                        class="btn showcase__item-links--live"
+                        target="_blank"
+                      >
+                        <ion-icon name="eye-outline"></ion-icon>
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/shamsad-anam/cafe-expresso"
+                        target="_blank"
+                        class="btn showcase__item-links--code"
+                        ><ion-icon name="logo-github"></ion-icon>Code</a
+                      >
+                      <a
+                        href="#cafePopup"
+                        class="btn showcase__item-links--gallery"
+                      >
+                        <ion-icon name="expand-outline"></ion-icon>
+                        Expand
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase__item" id="snowPreview">
+                  <a href="#snowPopup">
+                    <div class="card">
+                      <img
+                        src="img/snow.png"
+                        alt=""
+                        class="card-img-top"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="showcase__item-before">
+                      <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                  </a>
+                  <div class="showcase__item-after">
+                    <div class="showcase__item-links">
+                      <a
+                        href="https://shamsad-anam.github.io/snowstore/"
+                        class="btn showcase__item-links--live"
+                        target="_blank"
+                      >
+                        <ion-icon name="eye-outline"></ion-icon>
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/shamsad-anam/snowstore"
+                        class="btn showcase__item-links--code"
+                        target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>Code</a
+                      >
+                      <a
+                        href="#snowPopup"
+                        class="btn showcase__item-links--gallery"
+                      >
+                        <ion-icon name="expand-outline"></ion-icon>Expand</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase__item" id="modernoPreview">
+                  <a href="#modernoPopup">
+                    <div class="card">
+                      <img
+                        src="img/moderno.png"
+                        alt=""
+                        class="card-img-top"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="showcase__item-before">
+                      <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                  </a>
+                  <div class="showcase__item-after">
+                    <div class="showcase__item-links">
+                      <a
+                        href="#showcase"
+                        class="btn showcase__item-links--live"
+                      >
+                        <ion-icon name="eye-outline"></ion-icon>
+                        Live
+                      </a>
+                      <a href="#showcase" class="btn showcase__item-links--code"
+                        ><ion-icon name="logo-github"></ion-icon>Code</a
+                      >
+                      <a
+                        href="#modernoPopup"
+                        class="btn showcase__item-links--gallery"
+                      >
+                        <ion-icon name="expand-outline"></ion-icon>Expand</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ::: skill ::: -->
+        <section class="skill" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="heading__primary">
+                  <span>My Services</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                <div class="skill__card skill__card--psd">
+                  <div class="skill__icon">
+                    <img src="img/psd.svg" alt="psdtohtml" />
+                  </div>
+                  <div>
+                    <div class="skill__name">PSD To HTML</div>
+                    <div class="skill__desc">
+                      Making exact copy of PSD into HTML is my jam
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                <div class="skill__card skill__card--respond">
+                  <div class="skill__icon">
+                    <ion-icon name="phone-portrait-sharp"></ion-icon>
+                  </div>
+                  <div>
+                    <div class="skill__name">Responsive Design</div>
+                    <div class="skill__desc">
+                      Responsive Design for maximum reach
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                <div class="skill__card skill__card--wp">
+                  <div class="skill__icon">
+                    <ion-icon name="logo-wordpress"></ion-icon>
+                  </div>
+                  <div>
+                    <div class="skill__name">Wordpress</div>
+                    <div class="skill__desc">
+                      Theme customization and Deployment
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="heading__primary u-mt-6">
+                  <span>My Skills</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                <div class="skill__card skill__card--html">
+                  <div class="skill__icon">
+                    <ion-icon name="logo-html5"></ion-icon>
+                  </div>
+                  <div>
+                    <div class="skill__name">HTML</div>
+                    <div class="skill__desc">
+                      HTML5 semantic elements for better SEO
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                <div class="skill__card skill__card--css">
+                  <div class="skill__icon">
+                    <ion-icon name="logo-css3"></ion-icon>
+                  </div>
+                  <div>
+                    <div class="skill__name">CSS</div>
+                    <div class="skill__desc">
+                      Custom CSS stylings for eye-catching design
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+                <div class="skill__card skill__card--js">
+                  <div class="skill__icon">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                  </div>
+                  <div>
+                    <div class="skill__name">JavaScript</div>
+                    <div class="skill__desc">
+                      Light weight interactive interfaces with JS
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ::: about ::: -->
+        <section class="about" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading__primary">
+                  <span>About Me</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row flex-column justify-content-center align-items-center"
+            >
+              <div class="header__picture-container">
+                <img
+                  src="img/shamsad-anam.jpg"
+                  alt="shamsad-anam-dp"
+                  class="header__picture"
+                />
+              </div>
+              <div class="header__name">Shamsad Anam</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="heading__secondary">Experience</div>
+                <div class="about__text">
+                  More than two years of Experience in learning web development
+                  and making projects
+                </div>
+              </div>
+              <div class="col-sm-6 pt-5 pt-sm-0">
+                <div class="heading__secondary">Education</div>
+                <div class="about__text">
+                  B.Sc. in Electornics and Communication Engineering
+                </div>
+              </div>
+              <div class="col-sm-6 pt-5">
+                <div class="heading__secondary">Language</div>
+                <div class="about__text">English</div>
+                <div class="about__text">Bengali</div>
+              </div>
+              <div class="col-sm-6 pt-5">
+                <div class="heading__secondary">Goals</div>
+                <div class="about__text">Having my own brand.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ::: contact ::: -->
+        <section class="contact" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading__primary">
+                  <span>Contact</span>
+                </div>
+              </div>
+              <div class="col-md-12 mb-3 text-center mb-3">
+                <div class="heading__secondary">
+                  (Don't hesitate to send a mail)
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 col-sm-12">
+                <div class="contact__form">
+                  <form>
+                    <div class="form-row pb-3">
+                      <div class="col-sm-6 pb-3 pb-sm-0">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Email"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-12 pb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Subject"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <textarea
+                          cols="30"
+                          rows="8"
+                          class="form-control"
+                          placeholder="Write your message"
+                        ></textarea>
+                      </div>
+                      <button class="btn btn--tag">Send Mail</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <div class="contact__details">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="heading__secondary">Hire me on Fiverr</div>
+                      <div class="contact__mail">
+                        <a
+                          href="https://www.fiverr.com/share/5bGmx4"
+                          target="_blank"
+                          class="contact__link"
+                          .
+                          alt="psd to html conversion hire on fiverr"
+                        >
+                          <ion-icon name="link"></ion-icon>
+                          <span>See Fiverr Gigs</span>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                      <div class="heading__secondary">My Email</div>
+                      <div class="contact__mail">
+                        <a
+                          href="mailto:shamsad.anam@gmail.com"
+                          class="contact__link"
+                          ><ion-icon name="mail"></ion-icon>
+                          <span>shamsad.anam@gmail.com</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="heading__secondary">I am based in</div>
+                      <div class="contact__mail">
+                        <div class="contact__location">
+                          <ion-icon name="location-sharp"></ion-icon>
+                          <span>Dhaka, Bangladesh</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="heading__secondary">My Socials</div>
+                      <div class="contact__mail text-center">
+                        <div class="header__links">
+                          <a href="#" class="twitter"
+                            ><ion-icon name="logo-facebook"></ion-icon
+                          ></a>
+                          <a href="#" class="twitter"
+                            ><ion-icon name="logo-twitter"></ion-icon
+                          ></a>
+                          <a href="#" class="instagram"
+                            ><ion-icon name="logo-github"></ion-icon
+                          ></a>
+                          <a href="#" class="linkedin"
+                            ><ion-icon name="logo-linkedin"></ion-icon
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- ::: footer ::: -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="footer__copyright">
+            All rights reserved &copy; <span id="year"></span> Shamsad Anam
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ::: popup styles ::: -->
+    <div class="popup" id="digitorePopup">
+      <div class="popup__content">
+        <a href="#digitorePreview" class="btn btn-lg popup__close">&times;</a>
+        <div class="case">
+          <div class="row preview">
+            <div class="col-lg-7 d-flex align-items-center">
+              <img
+                class="preview__img"
+                src="img/digitore.png"
+                alt="digitore"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-5">
+              <div class="preview__info">
+                <div>
+                  <div class="heading__primary">
+                    <span>Business Site</span>
+                  </div>
+                  <div class="preview__tags">
+                    <div class="btn--tag">Responsive</div>
+                    <div class="btn--tag">Cross Browser Support</div>
+                    <div class="btn--tag">Reusable Components</div>
+                    <div class="btn--tag">Light Weight Animations</div>
+                    <div class="btn--tag">Bootstrap</div>
+                  </div>
+                  <div class="preview__links">
+                    <a
+                      href=" https://shamsad-anam.github.io/digitore-landing-page/"
+                      class="btn showcase__item-links--live"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="eye"></ion-icon>Live
+                      </div></a
+                    >
+                    <a
+                      href="https://github.com/shamsad-anam/digitore-landing-page"
+                      class="btn showcase__item-links--code"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="logo-github"></ion-icon>Code
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <blockquote class="preview__quote">
+                  <span>*</span>Anything is easily customizable
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="abdullahPopup">
+      <div class="popup__content">
+        <a href="#abdullahPreview" class="btn btn-lg popup__close">&times;</a>
+        <div class="case">
+          <div class="row preview">
+            <div class="col-lg-7 d-flex align-items-center">
+              <img
+                class="preview__img"
+                src="img/abdullah.png"
+                alt="digitore"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-5">
+              <div class="preview__info">
+                <div>
+                  <div class="heading__primary">
+                    <span>Portfolio Site</span>
+                  </div>
+                  <div class="preview__tags">
+                    <div class="btn--tag">Responsive</div>
+                    <div class="btn--tag">Cross Browser Support</div>
+                    <div class="btn--tag">Lightweight Animations</div>
+                    <div class="btn--tag">Reusable Components</div>
+                    <div class="btn--tag">Bootstrap</div>
+                  </div>
+                  <div class="preview__links">
+                    <a
+                      href="#needlink"
+                      class="btn showcase__item-links--live"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="eye"></ion-icon>Live
+                      </div></a
+                    >
+                    <a
+                      href="#needlink"
+                      class="btn showcase__item-links--code"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="logo-github"></ion-icon>Code
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <blockquote class="preview__quote">
+                  <span>*</span>Anything is easily customizable
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="mariachiPopup">
+      <div class="popup__content">
+        <a href="#mariachiPreview" class="btn btn-lg popup__close">&times;</a>
+        <div class="case">
+          <div class="row preview">
+            <div class="col-lg-7 d-flex align-items-center">
+              <img
+                class="preview__img"
+                src="img/maricahi.png"
+                alt="mariachi"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-5">
+              <div class="preview__info">
+                <div>
+                  <div class="heading__primary">
+                    <span>Restaurant Site</span>
+                  </div>
+                  <div class="preview__tags">
+                    <div class="btn--tag">Responsive</div>
+                    <div class="btn--tag">Cross Browser Support</div>
+                    <div class="btn--tag">Reusable Components</div>
+                    <div class="btn--tag">Lightweight Animations</div>
+                    <div class="btn--tag">Bootstrap</div>
+                  </div>
+                  <div class="preview__links">
+                    <a
+                      href="https://shamsad-anam.github.io/restaurant-mariachi/"
+                      class="btn showcase__item-links--live"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="eye"></ion-icon>Live
+                      </div></a
+                    >
+                    <a
+                      href="https://github.com/shamsad-anam/restaurant-mariachi"
+                      class="btn showcase__item-links--code"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="logo-github"></ion-icon>Code
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <blockquote class="preview__quote">
+                  <span>*</span>Anything is easily customizable
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="cafePopup">
+      <div class="popup__content">
+        <a href="#cafePreview" class="btn btn-lg popup__close">&times;</a>
+        <div class="case">
+          <div class="row preview">
+            <div class="col-lg-7 d-flex align-items-center">
+              <img
+                class="preview__img"
+                src="img/cafe.png"
+                alt="mariachi"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-5">
+              <div class="preview__info">
+                <div>
+                  <div class="heading__primary">
+                    <span>Business Site</span>
+                  </div>
+                  <div class="preview__tags">
+                    <div class="btn--tag">Responsive</div>
+                    <div class="btn--tag">Cross Browser Support</div>
+                    <div class="btn--tag">Reusable Components</div>
+                    <div class="btn--tag">Bootstrap</div>
+                  </div>
+                  <div class="preview__links">
+                    <a
+                      href="https://shamsad-anam.github.io/cafe-expresso/"
+                      class="btn showcase__item-links--live"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="eye"></ion-icon>Live
+                      </div></a
+                    >
+                    <a
+                      href="https://github.com/shamsad-anam/cafe-expresso"
+                      class="btn showcase__item-links--code"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="logo-github"></ion-icon>Code
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <blockquote class="preview__quote">
+                  <span>*</span>Anything is easily customizable
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="snowPopup">
+      <div class="popup__content">
+        <a href="#snowPreview" class="btn btn-lg popup__close">&times;</a>
+        <div class="case">
+          <div class="row preview">
+            <div class="col-lg-7 d-flex align-items-center">
+              <img
+                class="preview__img"
+                src="img/snow.png"
+                alt="snowstore"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-5">
+              <div class="preview__info">
+                <div>
+                  <div class="heading__primary">
+                    <span>Business Site</span>
+                  </div>
+                  <div class="preview__tags">
+                    <div class="btn--tag">Responsive</div>
+                    <div class="btn--tag">Cross Browser Support</div>
+                    <div class="btn--tag">Reusable Components</div>
+                    <div class="btn--tag">Lightweight Animations</div>
+                    <div class="btn--tag">Bootstrap</div>
+                  </div>
+                  <div class="preview__links">
+                    <a
+                      href="https://shamsad-anam.github.io/snowstore/"
+                      class="btn showcase__item-links--live"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="eye"></ion-icon>Live
+                      </div></a
+                    >
+                    <a
+                      href="https://github.com/shamsad-anam/snowstore"
+                      class="btn showcase__item-links--code"
+                      target="_blank"
+                      ><div class="u-f-center">
+                        <ion-icon name="logo-github"></ion-icon>Code
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <blockquote class="preview__quote">
+                  <span>*</span>Anything is easily customizable
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="modernoPopup">
+      <div class="popup__content">
+        <a href="#modernoPreview" class="btn btn-lg popup__close">&times;</a>
+        <div class="case">
+          <div class="row preview">
+            <div class="col-lg-7 d-flex align-items-center">
+              <img
+                class="preview__img"
+                src="img/moderno.png"
+                alt="moderno"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-5">
+              <div class="preview__info">
+                <div>
+                  <div class="heading__primary">
+                    <span>Business Site</span>
+                  </div>
+                  <div class="preview__tags">
+                    <div class="btn--tag">Responsive</div>
+                    <div class="btn--tag">Cross Browser Support</div>
+                    <div class="btn--tag">Reusable Components</div>
+                    <div class="btn--tag">Lightweight Animations</div>
+                    <div class="btn--tag">Bootstrap</div>
+                  </div>
+                  <div class="preview__links">
+                    <a href="#showcase" class="btn showcase__item-links--live"
+                      ><div class="u-f-center">
+                        <ion-icon name="eye"></ion-icon>Live
+                      </div></a
+                    >
+                    <a
+                      href="https://github.com/"
+                      class="btn showcase__item-links--code"
+                      ><div class="u-f-center">
+                        <ion-icon name="logo-github"></ion-icon>Code
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <blockquote class="preview__quote">
+                  <span>*</span>Anything is easily customizable
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ::: scripts ::: -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- icons -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <!-- smooth-scroll from smooth-scroll library -->
+    <!-- <script src="assets/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 300,
+        // speedAsDuration: true,
+        easing: "easeInCubic",
+      });
+    </script> -->
+
+    <script>
+      $("a.smooth-scroll").on("click", function (e) {
+        var anchor = $(this);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $(anchor.attr("href")).offset().top - 90,
+            },
+            1000
+          );
+        e.preventDefault();
+      });
+    </script>
+    <script src="js/scrollspy.js"></script>
+    <!-- <script src="js/smoothscroll.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

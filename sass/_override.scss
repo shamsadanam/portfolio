@@ -1,0 +1,32 @@
+a,
+a:active,
+a:visited,
+a:hover {
+  color: $color-text-light;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.col-xs-4 {
+  @include respondBetween(0, 575px) {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+.u-f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-mt-6 {
+  margin-top: 6rem;
+}
+
+// .pt-sm-5 {
+//   @include respondBetween(0px, )
+// }
