@@ -28,8 +28,15 @@
     height: 100vh;
     position: relative;
 
+    @include respondMax(556px){
+      align-items: flex-start;
+    }
+
     & .case {
       width: 70%;
+      @include respondMax(556px){
+        margin-top: 80px;
+      }
     }
   }
 
@@ -97,6 +104,7 @@
       font-size: 1.8rem;
       border-radius: 1rem;
       transition: all 0.2s;
+      color: #fff;
 
       &:not(:last-child) {
         margin-right: 1rem;
